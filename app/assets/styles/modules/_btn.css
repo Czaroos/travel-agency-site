@@ -16,4 +16,12 @@
 			font-size: 1.25rem;
 		}
 	}
+
+	&--rounded {
+		border-radius: 15px;
+	}
+
+	&--transparent {
+		background-color: rgba($mainBlue, .6);
+	}
 }
