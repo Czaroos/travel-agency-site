@@ -40,7 +40,7 @@ class StickyHeader {
   }
 
   createPageSactionWaypoints() {
-    var that = this;
+  var that = this;
     this.pageSections.each(function() {
       var currentPageSection = this;
       new Waypoint({
@@ -53,7 +53,7 @@ class StickyHeader {
           }
 
         },
-        offset: "18%"
+        offset: "25%"
       });
 
       new Waypoint({
@@ -66,7 +66,7 @@ class StickyHeader {
           }
 
         },
-        offset: "-40%"
+        offset: "bottom-in-view"
       });
     });
   }
